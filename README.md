@@ -24,8 +24,8 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Spoer/recipe-main)
-- Live Site URL: [Add live site URL here](https://spoer.github.io/recipe-main/)
+- Solution URL: Recipe Page Main(https://github.com/Spoer/recipe-main)
+- Live Site URL: Recipe Page Main(https://spoer.github.io/recipe-main/)
 
 ## My process
 
