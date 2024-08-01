@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    block-size: border-box;
+}
+body {
+    background-color: hsl(30, 54%, 90%);
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+    color: hsl(24, 5%, 18%);
+}
+
+.container{
+    background-color:hsl(0, 0%, 100%) ;
+    width: 55%;
+    border-radius: 28px;
+    padding: 40px 45px;
+}
+
+img{
+    width: 100%;
+    border-radius: 17px;
+}
+
+h1 {
+    font-family: 'Young Serif', serif;
+    font-weight: 400;
+    margin: 25px 0;
+}
+
+h2 {
+    font-family: 'Young Serif', serif;
+    font-weight: normal;
+}
+
+p, .preparation, .heading, ul, li, tr {
+    font-family: 'Outfit', sans-serif;
+    line-height: 2;
+}
+
+.detail {
+    margin-bottom: 30px;
+}
+
+.prep {
+    color: hsl(332, 51%, 32%);
+    margin-left: 30px;
+}
+
+.preparation ul {
+    margin-left: 55px;
+    margin-bottom: 3rem;
+    
+}
+
+.preparation ul li {
+    padding-left: 15px;
+}
+
+.preparation ul li::marker {
+    color: hsl(332, 51%, 32%);
+}
+
+strong {
+    color: hsl(24, 5%, 18%);
+}
+
+.ingredients {
+    color: hsl(14, 45%, 36%);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.heading {
+    list-style-position: outside;
+    margin-left: 25px;
+    
+}
+
+.heading li {
+    padding-left: 15px;
+}
+
+.heading li::marker {
+    color: hsl(14, 45%, 36%);
+}
+
+hr {
+    margin: 30px 0;
+    background-color: hsl(30, 18%, 87%);
+    border: none;
+    height: 1px;
+}
+
+.order li {
+    margin: 5px 0;
+}
+
+.order li::marker{
+    font-family: 'Outfit', sans-serif;
+    font-weight: 600;
+}
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.nutrition-table td {
+    border-bottom: 1px solid hsl(30, 18%, 87%);
+    padding: 8px 30px;
+}
+
+.nutrition-table td:last-child {
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+}
+
+@media (max-width: 375px) {
+    body {
+        padding: 0;
+    }
+    
+    .container {
+        width: 100%;
+        border-radius: 0;
+        height: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    .content {
+        padding: 0 30px;
+    }
+
+    img {
+        width: 100%;
+        height: auto;
+        border-radius: 0;
+        display: block;  
+        margin: 0;  
+        padding: 0;
+    }
+    
+    .nutrition-table tr:last-child td {
+        border-bottom: none;
+    }
+}
